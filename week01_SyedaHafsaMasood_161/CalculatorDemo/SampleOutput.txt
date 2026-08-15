@@ -1,0 +1,17 @@
+Casio values are 8.0 and 2.0
+Citizen values are 10.5 and 5.0
+ Citizen values Addition: 15.5
+ Casio values Subtraction: 6.0
+ Citizen values Multiplication: 52.5
+Casio values are now 10.0 and 0.0
+ [Normal case] Citizen values Division: 2.1
+Division by zero is not allowed.
+ [Edge case] Casio values Division: 0.0
+ [Normal case] Citizen values Modulus: 0.5
+Modulus by zero is not allowed.
+ [Edge case] Casio values Modulus: 0.0
+ [Normal case]Citizen values Power: 127628.15625
+ [Edge case] Casio values Power: 1.0
+Average of [10, 20, 30, 40]: 25.0
+No numbers provided.
+Average of [] values: 0.0

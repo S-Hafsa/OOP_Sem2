@@ -1,0 +1,36 @@
+Object Count: 1
+Object Count: 2
+BMW Engine Started
+BMW is driving at speed 40
+BMW is moving fast at speed 100
+BMW turned right. with angle 90.0
+Turbo Mode Activated!
+Tesla Engine Started
+Tesla is moving slowly at speed 20
+Tesla turned left with angle -90.0
+Tesla headlights turned on.
+Brand: BMW
+Color: Black
+Speed: 150
+Fuel: 65
+Engine: true
+Headlights on: false
+Angle: 90.0
+Object Count: 2
+Brand: Tesla
+Color: Red
+Speed: 20
+Fuel: 98
+Engine: true
+Headlights on: true
+Angle: -90.0
+Object Count: 2
+BMW Engine Stopped
+Brand: BMW
+Color: Black
+Speed: 0
+Fuel: 65
+Engine: false
+Headlights on: false
+Angle: 90.0
+Object Count: 2

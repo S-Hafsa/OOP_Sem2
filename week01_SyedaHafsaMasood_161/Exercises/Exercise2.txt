@@ -1,0 +1,30 @@
+public class Main {
+
+    public static void main(String[] args) {
+
+        // Instantiation: Creating a new Car object and assigning its reference to bmw
+        Car bmw = new Car();
+
+        // Instantiation: Creating another Car object and assigning its reference to tesla
+        Car tesla = new Car();
+
+        // Null construction: Creating a Car reference with no object assigned
+        Car anotherCar = null;
+
+        // Reference: bmw refers to the first Car object, tesla refers to the second Car object
+        bmw.setDetails("BMW", "Black");
+        tesla.setDetails("Tesla", "Red");
+
+        // Calling methods using object references
+        bmw.startEngine();
+        tesla.startEngine();
+
+        // Displaying the current state of both Car objects
+        bmw.displayState();
+        tesla.displayState();
+
+        // Stopping BMW engine and displaying updated state
+        bmw.stopEngine();
+        bmw.displayState();
+    }
+}
