@@ -56,14 +56,14 @@ public class RationalNumbers {
         return new RationalNumbers(newNumerator, newDenominator);
     }
 
-    public RationalNumbers divide(RationalNumbers other) {
+   public RationalNumbers divide(RationalNumbers other) {
     if (other.numerator == 0) {
         throw new ArithmeticException("Cannot divide by zero");
     }
-        int newNumerator = this.numerator * other.numerator;
-        int newDenominator = this.denominator * other.denominator;
-        return new RationalNumbers(newNumerator, newDenominator);
-    }
+    int newNumerator = this.numerator * other.denominator;
+    int newDenominator = this.denominator * other.numerator;
+    return new RationalNumbers(newNumerator, newDenominator);
+}
 
     @Override
     public String toString() {
