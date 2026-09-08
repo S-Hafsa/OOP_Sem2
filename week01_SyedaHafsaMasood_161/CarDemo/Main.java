@@ -6,6 +6,7 @@ public class Main {
         System.out.println("Object Count: " + Car.getObjectCount());
         Car tesla = new Car();
         System.out.println("Object Count: " + Car.getObjectCount());
+        System.out.println(bmw);
 
         bmw.setDetails("BMW", "Black");
         tesla.setDetails("Tesla", "Red");
